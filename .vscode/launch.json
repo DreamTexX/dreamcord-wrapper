@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "Debug Example",
+      "type": "pwa-node",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": [
+        "run",
+        "--unstable",
+        "--inspect",
+        "--allow-all",
+        "${workspaceFolder}/example/main.ts"
+      ],
+      "outputCapture": "std",
+      "attachSimplePort": 9229,
+      "cwd": "${workspaceFolder}/example",
+      "request": "launch",
+      "internalConsoleOptions": "openOnSessionStart",
+    }
+  ]
+}
