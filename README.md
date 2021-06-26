@@ -13,9 +13,9 @@ A fully featured library is planned for the future.
 - [X] Creating and resuming sessions
 - [X] Keeping gateway connection alive
 - [X] (Maybe done) Handle each opcode correctly
-- [] Handle rate limits
-- [] Intent options in wrapper initialize
-- [] Sharding
+- [ ] Handle rate limits
+- [ ] Intent options in wrapper initialize
+- [ ] Sharding
 
 ## Contributing
 
