@@ -80,7 +80,7 @@ export interface SelectMenu {
 
 // https://discord.com/developers/docs/interactions/message-components#select-menu-object-select-option-structure
 export interface SelectOption {
-  labe: string,
+  label: string,
   value: string,
   description?: string,
   emoji?: Partial<Emoji>,
