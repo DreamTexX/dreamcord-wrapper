@@ -311,7 +311,8 @@ export enum InteractionType {
 // https://discord.com/developers/docs/interactions/message-components#component-types
 export enum ComponentType {
   ACTION_ROW = 1,
-  BUTTON = 2
+  BUTTON = 2,
+  SELECT_MENU = 3
 }
 
 // https://discord.com/developers/docs/interactions/message-components#buttons-button-styles

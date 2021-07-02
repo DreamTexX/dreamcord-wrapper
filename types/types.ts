@@ -69,6 +69,24 @@ export interface UnavailableGuild {
   unavailable?: boolean;
 }
 
+// https://discord.com/developers/docs/interactions/message-components#select-menu-object-select-option-structure
+export interface SelectMenu {
+  custom_id: string,
+  options: SelectOption[],
+  placeholder?: string,
+  min_values?: number,
+  max_values?: number
+}
+
+// https://discord.com/developers/docs/interactions/message-components#select-menu-object-select-option-structure
+export interface SelectOption {
+  labe: string,
+  value: string,
+  description?: string,
+  emoji?: Partial<Emoji>,
+  default?: boolean
+}
+
 // https://discord.com/developers/docs/resources/guild#guild-object
 export interface Guild {
   id: string;
