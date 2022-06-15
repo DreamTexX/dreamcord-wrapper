@@ -30,8 +30,8 @@ export class Wrapper {
     url: string,
     payload?: unknown
   ): Promise<T | undefined> {
-    if (!this.sessionId)
-      throw new Error('Cannot do something, while not connected to gateway')
+    //if (!this.sessionId)
+    //  throw new Error('Cannot do something, while not connected to gateway')
 
     try {
       const response = await fetch("https://discord.com/api/v9" + url, {
