@@ -14,7 +14,7 @@ export class Wrapper {
   private eventHandlers: Map<EventType, Map<number, Callback<any>>> = new Map();
   
   constructor(private token: string) {
-    this.connect();
+    //this.connect();
   }
 
   public on<T extends EventType>(event: T, callback: Callback<T>) {
